@@ -1,0 +1,315 @@
+body{
+	width: 1600px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.content{
+	margin: 0 auto;
+	width:100%;
+}
+
+.menu{
+	height:100px;
+	background-color:#FCF9F4;
+	text-align:center;
+}
+
+.menu_cont{
+	height:100%;
+	display:inline-block;
+}
+
+.menu_logo{
+	height:100%;
+	display:inline-block;
+	float:left;
+}
+
+.menu_title{
+	display:inline-block;
+	float:left;
+	margin:0 auto;
+	margin-left:42px;
+	height:100%;
+	padding:0px 21px;
+	border:1px solid #eae7e2;
+	border-width:0 1px;
+}
+
+.menu_title li{
+	display:inline-block;
+	float:left;
+	height:100%;
+	margin:0 auto;
+	line-height:100px; 
+	padding:0px 21px;
+	color:#9A99A0;
+}
+
+.menu_button{
+	display:inline-block;
+	float:left;
+	margin-left:42px;
+	height:40px;
+	width:150px;
+	border:2px solid #dad7d2;
+	background-color:#FCF9F4;
+	border-radius:5px;
+    margin-top: 28px;
+	font-weight:bold;
+	color:#4d4e59;
+}
+
+.menu_title li:hover{
+	color:#6A6970;
+	cursor: pointer;
+}
+
+
+
+.hero{
+	width:100%;
+	height:794px;
+	position:relative;
+}
+
+.hero_img{
+	height:100%;
+	width:100%;
+	opacity:0.9;
+	filter: alpha(opacity=90);
+}
+
+.hero_title{
+	position:absolute;
+	top: 300px;
+	width:100%;
+	text-align:center;
+	font-size:60px;
+	font-family: 'Amatic SC';
+	color:#FFF;
+}
+
+.hero_button{
+	margin-top:410px;
+	height:60px;
+	width:578px;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	top: 50px;
+	left:50%;
+    margin-left:-285px;
+}
+
+.hero_button_left, .hero_button_right{
+	width:270px;
+	height:100%;
+	border-radius:5px;
+	background: rgba(255, 255, 255, 0);
+	border:2px solid rgba(255, 255, 255, 0.2);
+	font-size:24px;
+	color:#FFF;
+	font-family: 'Amatic SC';
+	margin:0 auto;
+}
+
+.hero_button_left:hover, .hero_button_right:hover{
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.hero_button_right{
+	margin-left:30px;
+}
+
+
+
+
+.mission{
+	padding:150px 0 200px 0; 
+	text-align:center;
+	background-color:#FCF9F4;
+	text-align:center;
+}
+
+.mission_title{
+	font-family: 'Amatic SC';
+	font-size:52px;
+	color:#4d4e59;
+	display:block;
+}
+
+.mission_msg{
+	display:block;
+	margin:32px 0;
+	font-family: 'Open Sans';
+	color:#636471;
+	font-size:20px;
+}
+
+.mission_button{
+	height:50px;
+	width:300px;
+	background-color:#ffcd62;
+	color:#636471;
+	border:0;
+	border-radius:5px;
+	font-weight:bold;
+}
+
+.mission_button:hover{
+	background-color:#ffed82;
+}
+
+
+.students,.tutors,.partners{
+	height:700px;
+	width:100%;
+	position:relative;
+}
+
+.students{
+	background-color:#91d0b1;
+}
+
+.tutors{
+	background-color:#ffcd62;
+}
+
+.partners{
+	background-color:#80a8cc;
+}
+
+.stu_img{
+	position:absolute;
+	top:185px;
+	left:312px;
+	height:330px;
+}
+
+.tur_img{
+	position:absolute;
+	margin-top:185px;
+	height:330px;
+	right:300px;
+}
+
+.stu_cont, .tur_cont{
+	position:absolute;
+	top:170px;
+	height:500px;
+}
+
+.stu_cont{
+	left:780px;
+	margin-right:300px;
+}
+
+.tur_cont{
+	left:312px;
+	width:520px;
+}
+
+.stu_title{
+	color:#fcf9f4;
+	font-family: 'Amatic SC';
+	font-size:52px;
+}
+
+.stu_msg{
+	display:block;
+	margin:32px 0 32px 0;
+	font-size:20px;
+	font-family: Arial;
+	color:#FFF;
+}
+
+.stu_button, .ptr_button, .tur_button{
+	height:60px;
+	width:300px;
+	color:#FFF;
+	border-radius:5px;
+	border:0;
+	font-size:20px;
+}
+
+.stu_button{
+	background-color:#7CB69A;
+}
+.ptr_button{
+	background-color:#6d91b1;
+}
+.tur_button{
+	background-color:#eabc5b;
+}
+
+.progress{
+	height:840px;
+	width:100%;
+	background-color:#FCF9F4;
+	text-align:center;
+}
+
+.progress_title{
+	display:inline-block;
+	margin:170px 0 80px 0;
+	font-family: 'Amatic SC';
+	font-size:52px;
+	color:#909094;
+}
+
+.progress_cont{
+	margin:0 218px;
+	height:350px;
+	column-count:3;
+	column-gap:30px;
+}
+
+.progress_box_left,.progress_box_center,.progress_box_right{
+	height:346px;
+	border:2px solid #eeece7;
+	border-radius:10px;
+}
+
+.progress_box_left{
+	color:#91d0b1;
+}
+
+.progress_box_center{
+	color:#ffcd62;
+}
+
+.progress_box_right{
+	color:#80a8cc;
+}
+
+.progress_box_title{
+	display:inline-block;
+	margin:100px 0 50px 0;
+	font-family: 'Amatic SC',cursive;
+	font-size:72px;
+}
+
+.progress_box_cont{
+	display:inline-block;
+	font-size:16px;
+}
+
+button:hover{
+	background-color:rgba(255, 255, 255, 0.2);
+}
+
+
+.copyright{
+	height:100px;
+	width:100%;
+	background-color:#4d4e59;
+	text-align:center;
+	color:#FFF;
+}
+
+.copyright span{
+	display:inline-block;
+	line-height:100px; 
+}

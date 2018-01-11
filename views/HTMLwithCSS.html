@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html style="border:5px solid #FC336E">
+<head>
+	<title>HTML</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		* {
+		  -webkit-box-sizing: border-box;
+			 -moz-box-sizing: border-box;
+				  box-sizing: border-box;
+		}
+		
+		.txt{
+			border: 1px solid #DDDDDD;
+			border-radius:5px;
+			margin-top:20px;
+			-moz-column-count:3; /* Firefox */
+			-webkit-column-count:3; /* Safari 和 Chrome */
+			column-count:3;
+		}
+		
+		.box{
+			display: block;
+			width: 100%;
+			padding:20px;
+		}
+		
+		.box span{
+			font-weight:normal;
+		}
+		
+		.heading{
+			width:100%;
+			background-color:#F5F5F5;
+			border: 1px solid #DDDDDD;
+			border-bottom-width: 0px;
+			border-radius:5px 5px 0px 0px;
+			padding:20px;
+			margin-top:20px;
+			font-size:18px;
+		}
+		
+		.question{
+			width:100%;
+			border: 1px solid #DDDDDD;
+			border-radius:0px 0px 5px 5px;
+		}
+		
+		
+		body{
+			margin: 0 auto;
+			max-width:90%;
+			font-family:Microsoft-YaHei;
+			font-weight:bold;
+		}
+		
+		h1{
+			margin-top:20px;
+			text-align:center;
+		}
+		
+		input[type="text"]{
+			max-width: 150px;
+			height: 32px;
+			border-radius:5px;
+			border: 1px solid #DDDDDD;
+		}
+			
+		input{
+			margin: 5px 0px 5px 0px;
+		}
+		
+		li{
+			margin-top:10px;
+		}
+		
+		li span{
+			font-weight:normal;
+			display : block;
+			margin-top:5px;
+		}
+		
+		img{
+			width:16px;
+			height:16px;
+			margin:0px 8px 0px 2px;
+		}
+		
+		textarea{
+			display:block;
+			margin:5px 0px 30px 0px;
+			width:98%;
+			height:130px;
+		}
+		
+		button{
+			display:block;
+			margin:0 auto;
+			margin-top: 30px;
+			width:80px;
+			height:35px;
+			line-height:35px; 
+			border-radius:5px; 
+			background-color:#428BCA; 
+			color:#FFF;
+			border:0px;
+		}
+	</style>
+</head>
+<body>
+
+<h1>统一建模语言理论测试</h1>
+
+<div class="txt">
+	<div class="box">考试科目：<span>统一建模语言</span></div>
+	<div class="box">时间：<span>100分钟</span></div>
+	<div class="box">得分：</div>
+</div>
+
+<div class="txt">
+	<span class="box">班级（必填）：<input type="text"/></span>
+	<span class="box">学号（必填）：<input type="text"/></span>
+	<span class="box">姓名（必填）：<input type="text"/></span>
+</div>
+
+<div class="heading">一、填空题（每空5分，共20分）</div>
+<div class="question">
+	<ol>
+		<li>UML的中文全称是：<br>
+			<input type="text"/>
+		</li>
+		<li>对象最突出的特征是：<br>
+			<input type="text"/>&nbsp;<input type="text"/>&nbsp;<input type="text"/>
+		</li>
+	</ol>
+</div>
+
+<div class="heading">二、选择题（每题10分，共20分）</div>
+<div class="question">
+	<ol>
+		<li>UML与软件工程的关系是：<br>
+			<span><input type="radio" name="uml" value="A"/>(A)UML就是软件工程</span>
+			<span><input type="radio" name="uml" value="B"/>(B)UML参与到软件工程中软件开发过程的几个阶段</span>
+			<span><input type="radio" name="uml" value="C"/>(C)UML与软件工程无关</span>
+			<span><input type="radio" name="uml" value="D"/>(D)UML是软件工程的一部分</span>
+		</li>
+		<li>Java语言支持：<br>
+			<span><input type="radio" name="java" value="A">(A)单继承</span>
+			<span><input type="radio" name="java" value="B">(B)多继承</span>
+			<span><input type="radio" name="java" value="C">(C)单继承和多继承都支持</span>
+			<span><input type="radio" name="java" value="D">(D)单继承和多继承都不支持</span>
+		</li>
+	</ol>
+</div>
+
+<div class="heading">三、多项选择题（每题10分，共20分）</div>
+<div class="question">
+	<ol>
+		<li>用例的粒度分为以下哪三种：<br>
+			<span><input type="checkbox" name="cb1" value="A">(A)需求级</span>
+			<span><input type="checkbox" name="cb1" value="B">(B)概述级</span>
+			<span><input type="checkbox" name="cb1" value="C">(C)用户目标级</span>
+			<span><input type="checkbox" name="cb1" value="D">(D)子功能级</span>
+		</li>
+		<li>类图由以下哪三部分组成：<br>
+			<span><input type="checkbox" name="cb2" value="A">(A)名称(Name)</span>
+			<span><input type="checkbox" name="cb2" value="B">(B)属性(Attrbute)</span>
+			<span><input type="checkbox" name="cb2" value="C">(C)操作(Operation)</span>
+			<span><input type="checkbox" name="cb2" value="D">(D)方法(Function)</span>
+		</li>
+	</ol>
+</div>
+
+<div class="heading">四、判断题（每题10分，共20分）</div>
+<div class="question">
+	<ol>
+		<li>用例图只是用于和客户交流和沟通的，用于确定需求。
+			<input type="radio" name="A" value="T"><img src="../public/images/true.png"/>
+			<input type="radio" name="A" value="F"><img src="../public/images/false.png"/>
+		</li>
+		<li>在状态图中，终止状态在一个状态图中允许有任意多个。
+			<input type="radio" name="B" value="T"><img src="../public/images/true.png"/>
+			<input type="radio" name="B" value="F"><img src="../public/images/false.png"/>
+		</li>
+	</ol>
+</div>
+	
+<div class="heading">五、简答题（每题20分，共20分）</div>
+<div class="question">
+	<ol>
+		<li>简述什么是模型及模型的表现形式？
+			<textarea cols="20" rows="5"></textarea>
+		</li>
+	</ol>
+</div>
+
+<button>计算分数</button>
+<hr>
+</body>
+</html>
